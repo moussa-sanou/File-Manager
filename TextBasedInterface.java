@@ -33,6 +33,7 @@ public class TextBasedInterface implements UserInterface{
                 case 3:
                     System.out.println("Enter path of file or directory to delete: ");
                     handler.onDelete(scanner.nextLine());
+                    break;
                 case 4:
                     System.out.println("Exiting...");
                     scanner.close();
